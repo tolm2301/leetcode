@@ -1,10 +1,16 @@
 /**
+ * Explain :    - Given an numbers[] and an number target, return indices of the two numbers such that they add up to target.              
+ -------------------------------------------------------------------------------------------------------------------------------------------
  * Solution:    - Use an object to store numbers and their indices
                 - Loop through the array:
                     + Compute the complement (target - nums[i]).
                     + If the complement exists in numMap, return the indices [numMap[complement], i].
                     + Otherwise, store the current number and its index in numMap.
                 - The function returns the first pair of indices that sum to the target.
+ -------------------------------------------------------------------------------------------------------------------------------------------                
+ * TestCase:    - Input: twoSum([2,7,10,15], 9)
+ *              - Output: [0, 1]
+ -------------------------------------------------------------------------------------------------------------------------------------------
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
