@@ -8,7 +8,9 @@
                 - Add last digit to reversed
                 - Remove last digit from x
                 - Check if original number (or half of it) matches the reversed half
-   Solution 2:  - Use String reverse and check 2 string               
+   Solution 2:  - Use String reverse and check 2 string 
+ -------------------------------------------------------------------------------------------------------------------------------------------          
+ * Big(O):      - Solution 1: O(logn) -> every while loop, x / 10, with n = 121 -> logn = 3              
  -------------------------------------------------------------------------------------------------------------------------------------------                
  * TestCase:    - Input:  121           | 122
  *              - Output: true          | false

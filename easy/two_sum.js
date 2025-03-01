@@ -7,6 +7,8 @@
                     + If the complement exists in numMap, return the indices [numMap[complement], i].
                     + Otherwise, store the current number and its index in numMap.
                 - The function returns the first pair of indices that sum to the target.
+ -------------------------------------------------------------------------------------------------------------------------------------------          
+ * Big(O):      - O(n)
  -------------------------------------------------------------------------------------------------------------------------------------------                
  * TestCase:    - Input: twoSum([2,7,10,15], 9)
  *              - Output: [0, 1]

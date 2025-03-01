@@ -15,6 +15,8 @@
                 - Slice the last of prefix
                 - And when its found indexOf is 0 it will be stop the loop which have condition check indexOf and retrun prefix
                 - If it will be slice prefix become empty, return ""
+ -------------------------------------------------------------------------------------------------------------------------------------------          
+ * Big(O):      - O(m x n)
  -------------------------------------------------------------------------------------------------------------------------------------------                
  * TestCase:    - Input : ["flower","flow","flight"]
  *              - Output: "fl"
